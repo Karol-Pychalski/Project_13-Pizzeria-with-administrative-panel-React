@@ -8,7 +8,7 @@ const middlewares = jsonServer.defaults({
   static: './',
   noCors: true
 });
-const port = process.env.PORT || 3131;
+const port = process.env.PORT || 1111;
 
 server.get(/\/panel.*/, (req,res) =>{
   if(req.url == '/panel'){
